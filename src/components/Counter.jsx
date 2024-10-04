@@ -26,11 +26,6 @@ class Counter extends Component {
     this.playSound();
   };
 
-  playSound = () => {
-    const audio = new Audio(require('../sounds/increment-sound.mp3'));
-    audio.play();
-  };
-
   render() {
     const { count, isAnimating } = this.state;
 
