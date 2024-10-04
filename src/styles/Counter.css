@@ -1,0 +1,47 @@
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  background-image: url('path/to/your/doodle-background.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.counter-display {
+  font-size: 5rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #333;
+  transition: transform 0.5s ease-in-out;
+}
+
+.chord-animation {
+  transform: scale(1.2) rotate(-2deg);
+  color: #ff6347;
+}
+
+.glow-button {
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #ff6347;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 0 10px #ff6347;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 20px #ff6347, 0 0 40px #ff6347, 0 0 60px #ff6347;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f9f9f9;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 20px, #d9d9d9 20px, #d9d9d9 40px);
+}
