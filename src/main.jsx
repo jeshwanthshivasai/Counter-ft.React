@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Counter from './components/Counter';
 
-ReactDOM.render(
-  <React.StrictMode>
+let root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <>
     <Counter />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </>
 );
